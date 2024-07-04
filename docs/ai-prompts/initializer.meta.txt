@@ -1,0 +1,7 @@
+Meta Initializer Configuration
+
+1. Add the project name and description
+2. Add The Table of content
+3. Add the features list
+4. Add the changelog
+5. Add the tree structure of the project

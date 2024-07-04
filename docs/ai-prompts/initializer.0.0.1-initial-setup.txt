@@ -1,0 +1,398 @@
+# Professional Programming Platform - about this platform
+
+A collection of full-stack resources for programmers turned into a learning platform.
+
+## Table of Contents
+
+- [Professional Programming Platform - about this platform](#professional-programming-platform---about-this-platform)
+  - [Principles](#principles)
+  - [Contributing to this list](#contributing-to-this-list)
+  - [Must-read books](#must-read-books)
+  - [Must-read articles](#must-read-articles)
+  - [Other general material and list of resources](#other-general-material-and-list-of-resources)
+    - [Other lists](#other-lists)
+    - [Books](#books)
+    - [Articles](#articles)
+    - [Axioms](#axioms)
+    - [Courses](#courses)
+  - [Topics](#topics)
+    - [Algorithm and data structures](#algorithm-and-data-structures)
+    - [API design \& development](#api-design--development)
+    - [Attitude, habits, mindset](#attitude-habits-mindset)
+      - [Procrastination](#procrastination)
+    - [Authentication/authorization](#authenticationauthorization)
+    - [Automation](#automation)
+    - [Beyond software engineering \& random](#beyond-software-engineering--random)
+    - [Biases](#biases)
+    - [Business](#business)
+    - [Cache](#cache)
+    - [Career growth](#career-growth)
+      - [Choosing your next/first opportunity](#choosing-your-nextfirst-opportunity)
+      - [Getting to Staff Eng](#getting-to-staff-eng)
+    - [Characters sets](#characters-sets)
+    - [Chess](#chess)
+    - [Clouds](#clouds)
+    - [Code reviews](#code-reviews)
+    - [Coding \& code quality](#coding--code-quality)
+    - [Communication](#communication)
+    - [Compilers](#compilers)
+    - [Configuration](#configuration)
+    - [Continuous Integration (CI)](#continuous-integration-ci)
+    - [Databases](#databases)
+      - [NoSQL](#nosql)
+      - [Postgres](#postgres)
+    - [Data formats](#data-formats)
+    - [Data science/data engineering](#data-sciencedata-engineering)
+    - [Debugging](#debugging)
+    - [Design (visual, UX, UI, typography)](#design-visual-ux-ui-typography)
+    - [Design (OO modeling, architecture, patterns, anti-patterns, etc.)](#design-oo-modeling-architecture-patterns-anti-patterns-etc)
+      - [Design: database schema](#design-database-schema)
+      - [Design: patterns](#design-patterns)
+      - [Design: simplicity](#design-simplicity)
+    - [Dev environment \& tools](#dev-environment--tools)
+    - [Diversity \& inclusion](#diversity--inclusion)
+    - [Docker](#docker)
+    - [Documentation](#documentation)
+    - [Dotfiles](#dotfiles)
+    - [Editors \& IDE](#editors--ide)
+    - [Email](#email)
+    - [Engineering management](#engineering-management)
+    - [Exercises](#exercises)
+    - [Experimentation](#experimentation)
+    - [Functional programming (FP)](#functional-programming-fp)
+    - [Games development](#games-development)
+    - [Graphics](#graphics)
+    - [Hardware](#hardware)
+    - [HTTP](#http)
+    - [Humor](#humor)
+    - [Incident response (oncall, alerting, outages, firefighting, postmortem)](#incident-response-oncall-alerting-outages-firefighting-postmortem)
+      - [Postmortem](#postmortem)
+    - [Internet](#internet)
+    - [Interviewing](#interviewing)
+    - [Kubernetes](#kubernetes)
+    - [Large Language Model (LLM)](#large-language-model-llm)
+    - [Learning \& memorizing](#learning--memorizing)
+    - [Licenses (legal)](#licenses-legal)
+    - [Linux (system management)](#linux-system-management)
+    - [Low-code/no-code](#low-codeno-code)
+    - [Low-level, assembly](#low-level-assembly)
+    - [Machine learning/AI](#machine-learningai)
+    - [Math](#math)
+    - [Marketing](#marketing)
+    - [Network](#network)
+    - [Observability (monitoring, logging, exception handling)](#observability-monitoring-logging-exception-handling)
+      - [Logging](#logging)
+      - [Error/exception handling](#errorexception-handling)
+      - [Metrics](#metrics)
+      - [Monitoring](#monitoring)
+    - [Open source](#open-source)
+    - [Operating system (OS)](#operating-system-os)
+    - [Over-engineering](#over-engineering)
+    - [Performance](#performance)
+    - [Personal knowledge management (PKM)](#personal-knowledge-management-pkm)
+    - [Personal productivity](#personal-productivity)
+    - [Perspective](#perspective)
+    - [Privacy](#privacy)
+    - [Problem solving](#problem-solving)
+    - [Product management for software engineers](#product-management-for-software-engineers)
+    - [Project management](#project-management)
+    - [Programming languages](#programming-languages)
+      - [Python](#python)
+      - [JavaScript](#javascript)
+      - [Garbage collection](#garbage-collection)
+    - [Programming paradigm](#programming-paradigm)
+    - [Public speaking (presenting)](#public-speaking-presenting)
+    - [Reading](#reading)
+    - [Refactoring](#refactoring)
+    - [Regex](#regex)
+    - [Releasing \& deploying](#releasing--deploying)
+      - [Versioning](#versioning)
+      - [Checklists](#checklists)
+      - [Feature flags](#feature-flags)
+      - [Testing in production](#testing-in-production)
+    - [Reliability](#reliability)
+      - [Resiliency](#resiliency)
+    - [Search](#search)
+    - [Security](#security)
+    - [Shell (command line)](#shell-command-line)
+    - [SQL](#sql)
+    - [System administration](#system-administration)
+    - [System architecture](#system-architecture)
+      - [Architecture patterns](#architecture-patterns)
+      - [Microservices/splitting a monolith](#microservicessplitting-a-monolith)
+    - [Scalability](#scalability)
+    - [Site Reliability Engineering (SRE)](#site-reliability-engineering-sre)
+    - [Technical debt](#technical-debt)
+    - [Testing](#testing)
+    - [Tools](#tools)
+    - [Type system](#type-system)
+    - [Version control (Git)](#version-control-git)
+    - [Work ethics, productivity \& work/life balance](#work-ethics-productivity--worklife-balance)
+    - [Web development](#web-development)
+    - [Writing (communication, blogging)](#writing-communication-blogging)
+  - [Resources \& inspiration for presentations](#resources--inspiration-for-presentations)
+  - [Keeping up-to-date](#keeping-up-to-date)
+  - [Concepts](#concepts)
+  - [My other lists](#my-other-lists)
+
+-- 
+
+# Features
+
+### Features to Implement
+
+These features aim to enhance engagement, learning effectiveness, and community collaboration within the Professional Programming Platform, contributing to its overall success and impact.
+
+- [ ] **Gamify Professional Programming Platform (PPP)**: Introduce gamification elements to enhance user engagement and motivation.
+- [ ] **Fast Learning Path**: Design a streamlined learning experience for rapid assimilation of concepts.
+- [ ] **Community Integration**: Implement features to foster community interaction and collaboration.
+- [ ] **Progress Tracking**: Develop functionality to track user progress within PPP.
+- [ ] **Comprehensive Documentation**: Document all aspects of PPP to facilitate understanding and usage.
+- [ ] **Apply Learnings**: Apply insights gained from PPP readings to enhance the platform.
+- [ ] **Source Crediting**: Establish mechanisms to attribute sources and endorse contributors.
+- [ ] **Learning Assessment**: Create quizzes and tests to evaluate learning outcomes.
+- [ ] **Dual Language Support**: Support both Python and JavaScript in the codebase.
+- [ ] **Community Engagement**: Leverage multiple platforms (Instagram, Github, X, Reddit, etc.) to engage with the community.
+- [ ] **JSON Data Communication**: Utilize JSON for seamless data exchange between JavaScript and Python components.
+- [ ] **Monolithic Architecture**: Begin with a monolithic architecture and plan for future scalability.
+- [ ] **Multilingual Support**: Add translations for French, German, English, and Arabic.
+- [ ] **Platform Naming**: Decide and finalize the name for the PPP project.
+- [ ] **Revamped Architecture**: Introduce a structured architecture for PPP:
+  - [ ] **Core Platform (professional-programming-platform)**
+  - [ ] **Source Code (src)**
+    - [ ] **JavaScript (js)**
+    - [ ] **Python (py)**
+  - [ ] **Documentation (docs)**
+    - [ ] **JavaScript (js)**
+    - [ ] **Python (py)**
+  - [ ] **Data (data)**
+    - [ ] **JSON Files (json)**
+- [ ] **GitHub Pages Integration**: Set up GitHub Pages for PPP documentation and updates.
+- [ ] **Testing Framework**: Implement testing procedures to ensure platform functionality.
+- [ ] **AI Integration (GPT)**: Incorporate GPT for generating content and collecting resources.
+- [ ] **Q&A Repository**: Establish a repository for questions, answers, and detailed inquiries.
+- [ ] **Contributor Guidelines**: Prepare detailed documentation on how to contribute effectively.
+- [ ] **Team Communication**: Facilitate team communication via Discord or similar platforms.
+- [ ] **Structured File Organization**: Create folders and subfolders for each module across src/js, src/py, docs/md, and data/json.
+- [ ] **Implementation Checklists**: Develop checklists aligned with professional-programming specifications.
+- [ ] **Guided Development**: Utilize professional-programming principles to guide PPP development.
+- [ ] **Cheatsheets Compilation**: Compile cheatsheets covering all essential concepts.
+- [ ] **Specialized Programming Environment**: Establish an environment optimized for programming tasks.
+- [ ] **Configuration Files**: Author configuration files in Python and JavaScript.
+- [ ] **Versatile Platform Definition**: Define PPP as a versatile platform accommodating various roles and functionalities.
+- [ ] **Spec Integration**: Integrate professional-programming specifications into PPP development phases.
+- [ ] **Educational Focus**: Focus on turning users into exceptional programmers through active application of professional-programming principles.
+- [ ] **Focused Project Manifestation**: Embody a project ethos driven by focus, determination, and momentum.
+- [ ] **Content Creation Templates**: Create templates for documentation, videos, visuals, graphics, pull requests, issues, and code.
+- [ ] **Community Networking**: Forge connections with the developer community to enhance PPP's impact.
+- [ ] **Section-Specific Content**: Develop tailored content for each section of PPP.
+
+---
+
+The following checklist captures the essential features and initiatives outlined for the Professional Programming Platform, structured for implementation and tracking progress effectively.
+
+### Additional Essential Features
+
+- [ ] **Interactive Code Examples**: Embed interactive code snippets and examples to facilitate hands-on learning.
+- [ ] **Real-world Projects**: Provide opportunities for users to collaborate on and contribute to real-world projects.
+- [ ] **Feedback Mechanism**: Implement a feedback system for users to provide input on content and platform improvements.
+- [ ] **Peer Review**: Enable peer review and feedback on code submissions and project contributions.
+- [ ] **Job Board**: Include a job board or career section to connect users with job opportunities and internships.
+- [ ] **Live Coding Sessions**: Host live coding sessions and webinars on advanced topics and emerging technologies.
+- [ ] **Achievement Badges**: Introduce gamified achievement badges to reward user progress and accomplishments.
+- [ ] **Personalized Learning Paths**: Offer personalized learning paths based on user interests, skill levels, and goals.
+- [ ] **Continuous Updates**: Commit to regular updates and improvements based on user feedback and industry trends.
+- [ ] **Integration with IDEs**: Provide integration with popular Integrated Development Environments (IDEs) for seamless coding experiences.
+- [ ] **Performance Analytics**: Offer analytics and insights into user performance and learning trends.
+- [ ] **Career Guidance**: Provide resources and guidance on career development, including resume building and interview preparation.
+- [ ] **Guest Lectures and Talks**: Arrange guest lectures and talks by industry experts on relevant topics.
+- [ ] **Version Control Integration**: Integrate version control tools (e.g., Git) for collaborative coding and project management.
+- [ ] **Accessibility Features**: Ensure accessibility compliance to cater to users with disabilities.
+- [ ] **Localized Content**: Expand language support and localize content for global accessibility.
+- [ ] **API Playground**: Provide an API playground for users to explore and experiment with APIs.
+- [ ] **Community Forums**: Establish dedicated forums or discussion boards for community interaction and support.
+- [ ] **Research Papers and Case Studies**: Curate research papers and case studies on advanced topics in programming and software engineering.
+- [ ] **Cloud-based Labs**: Offer cloud-based development environments for resource-intensive projects and experiments.
+- [ ] **Hackathons and Competitions**: Organize regular hackathons, coding challenges, and competitions to foster creativity and skill development.
+- [ ] **Cross-platform Compatibility**: Ensure cross-platform compatibility for mobile and desktop users.
+- [ ] **Data Visualization Tools**: Include tools for data visualization and exploration in data science and analytics topics.
+- [ ] **Continuing Education**: Provide resources for continuing education and professional certification preparation.
+- [ ] **Support for Open Source Contributions**: Encourage and facilitate contributions to open source projects aligned with platform goals.
+- [ ] **Secure Coding Practices**: Promote secure coding practices and cybersecurity awareness through dedicated resources and exercises.
+
+### In Progress
+
+- [ ] **Initial Setup**: Initial setup of the Professional Programming Platform
+
+### Completed Features
+
+- [x] **Fork from Initial Repository**: Fork from https://github.com/charlax/professional-programming and adapt content for PPP.
+
+--
+
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+### Added
+- Added `docs/ai-prompts` and `docs/ai-prompts/initializer.txt`
+- Added reference to `charlax/professional-programming`
+- Added `json` to `data`.
+- Added `js` and `py` to `src`.
+- Moved `antipatterns`, `cheatsheets` and `training` to `docs`.
+- Added tweet of the PPP story to the `README.md`.
+- Initial fork of the Professional Programming repository.
+- Initial project setup.
+- Basic pro ject structure with `src`, `docs`, `templates`, and `data` directories.
+- Added `changelog-template.md` to `templates`
+- Added `CHANGELOG.md` to track changes and `FEATURES.md` to track features.
+- Initial core functionalities for learning algorithms.
+- (COMING) Core project structure and documentation setup.
+- (COMING) First set of learning materials on algorithms and data structures.
+
+### Changed
+- Updated `FEATURES.md` to have In Progress and Completed Tasks
+
+### Deprecated
+- N/A
+
+### Removed
+- N/A
+
+### Fixed
+- N/A
+
+### Security
+- N/A
+
+## [1.0.0] - YYYY-MM-DD
+
+### Added
+- (COMING) Comprehensive learning content for API design and development.
+- (COMING) Interactive quizzes and tests for algorithms section.
+- (COMING) Integration with GitHub, Discord, and other community platforms.
+- (COMING) Initial translations to French, Deutsch, and Arabic.
+
+### Changed
+- (COMING) Refactored project structure to better separate concerns.
+- (COMING) Improved documentation for contributing guidelines.
+
+### Deprecated
+- N/A
+
+### Removed
+- N/A
+
+### Fixed
+- (COMING) Fixed minor bugs in the initial setup scripts.
+- (COMING) Resolved issues with quiz functionality.
+
+### Security
+- Added basic authentication and authorization mechanisms.
+
+## [0.1.0] - YYYY-MM-DD
+
+### Added
+- (COMING) Basic documentation on project vision and goals.
+
+### Changed
+- N/A
+
+### Deprecated
+- N/A
+
+### Removed
+- N/A
+
+### Fixed
+- N/A
+
+### Security
+- N/A
+
+
+## Project Tree:
+
+(base) ➜  professional-programming-platform git:(ppp/1-initial-setup) tree .
+.
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── FEATURES.md
+├── LICENSE
+├── README.md
+├── data
+│   └── json
+├── docs
+│   ├── ai-prompts
+│   │   └── initializer.txt
+│   ├── antipatterns
+│   │   ├── README.md
+│   │   ├── code-antipatterns.md
+│   │   ├── database-antipatterns.md
+│   │   ├── error-handling-antipatterns.md
+│   │   ├── images
+│   │   │   └── test-pyramid.png
+│   │   ├── mvcs-antipatterns.md
+│   │   ├── python-examples
+│   │   │   ├── reraise_exceptions_bad.py
+│   │   │   └── reraise_exceptions_good.py
+│   │   ├── scalability-antipatterns.md
+│   │   ├── sqlalchemy-antipatterns.md
+│   │   ├── sqlalchemy-examples
+│   │   │   └── exists.py
+│   │   └── tests-antipatterns.md
+│   ├── cheatsheets
+│   │   ├── Clean-Architecture-V1.0.pdf
+│   │   └── Clean-Code-V2.4.pdf
+│   ├── feature-flags.md
+│   ├── glossary.md
+│   └── training
+│       ├── front-end
+│       │   ├── 01-modern-javascript.md
+│       │   ├── 02-react.md
+│       │   ├── 03-typescript.md
+│       │   ├── 04-the-browser.md
+│       │   ├── 05-css-html-restart.md
+│       │   ├── 06-front-end-development-practices.md
+│       │   ├── README.md
+│       │   ├── examples
+│       │   │   └── hoisting.html
+│       │   └── img
+│       │       ├── caniuse.png
+│       │       ├── js-the-good-parts.jpg
+│       │       └── learning-roadmap.png
+│       ├── learning-python
+│       │   └── README.md
+│       └── web-dev
+│           └── README.md
+├── images
+│   ├── amazon_writing_rules.jpeg
+│   ├── clean-architecture-cone.jpg
+│   ├── cost-of-defects.jpg
+│   ├── decomposing problems.jpg
+│   ├── how-not-to-build-mvp.jpg
+│   ├── let-your-bugs-teach-you-julia-evans.jpg
+│   ├── mvp.jpeg
+│   ├── premature automation.png
+│   ├── premature-optimization-flowchart.png
+│   ├── rewrite.gif
+│   ├── software_architecture_pasta.png
+│   ├── syntax-highlighting.jpeg
+│   ├── tech-debt.jpeg
+│   ├── the reality of automation.png
+│   ├── us-vs-them.jpeg
+│   ├── uwe-friedrichsen-resilient-architecture.png
+│   ├── waterfall-UX.jpeg
+│   └── what to assert.png
+├── src
+│   ├── js
+│   └── py
+└── templates
+    └── changelog-template.md
+
+20 directories, 54 files

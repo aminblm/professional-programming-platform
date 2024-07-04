@@ -84,6 +84,21 @@ The following checklist captures the essential features and initiatives outlined
 ### In Progress
 
 - [ ] **Initial Setup**: Initial setup of the Professional Programming Platform
+  - [ ] Make initial setup features list
+  - [ ] Make folders tree based on the table of contents
+    - [ ] Make for py files and js files
+  - [ ] Upgrade to latest versions of Python and Javascript 
+  - [ ] Create environments for repository
+  - [ ] Choose the right framework to use for Python development
+  - [ ] Choose the right framework to use for JavaScript development
+  - [ ] Setting up a coding playground for both Python and JavaScript where we can run the code and execute it
+  - [ ] Research the right frameworks for the future codebase to build
+  - [ ] Developing three standalone platforms
+    - [ ] Developping two standalone platforms using two different languages for them (Python and JavaScript) to be freer and more able to adapt to newer technologies and principles
+    - [ ] Developping a third platform that follows the backend frontend methodology for Python and JavaScript respectively
+  - [ ] Make conventions of contribution and cooperation
+  - [ ] Implement the features list
+
 
 ### Completed Features
 
