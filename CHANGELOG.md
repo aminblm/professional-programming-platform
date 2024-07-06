@@ -8,13 +8,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- Added FAQs
-- Added `ARCHITECTURE.md` file to document and argument architectural design decisions
-- Added `ppp-js`, `ppp-py` and `ppp-py-js` to the `src` making them three platforms to make
-- Added documentation for the AI prompts in `docs/ai-prompts/README.md`
-- Added `docs/ai-prompts`, `docs/ai-prompts/intializer.meta.txt` and `docs/ai-prompts/initializer.0.0.1-initial-setup.txt`
-- Added reference to `charlax/professional-programming`
+- Added a one lines description of the repository.
+- initializing JavaScript.
+- Updating the npm global installation path to newer one to avoid EACCES Error.
+- Update node and nvm.
+- Initiated `ppp-js` repository with latest stable versions of `JavaScript` `npm`, `node` and `nvm`.
+- Using `conda` for system level dependencies and `poetry` for project related dependencies for `python`.
+- Installing latest versions of JavaScript and Python to be updated with latest stable versions
+- Install LTS versions of the softwares
+- Updated `python` to the `bugfix` versions
+- setting the environment for all platforms
+- Added `test` folder
+- cleaned all the caches of `javascript` and `python`
+- Added `config` folders for root and rest of the platforms configs
 - 
+- Added FAQs.
+- Added `ARCHITECTURE.md` file to document and argument architectural design decisions.
+- Added `ppp-js`, `ppp-py` and `ppp-py-js` to the `src` making them three platforms to make.
+- Added documentation for the AI prompts in `docs/ai-prompts/README.md`.
+- Added `docs/ai-prompts`, `docs/ai-prompts/intializer.meta.txt` and `docs/ai-prompts/initializer.0.0.1-initial-setup.txt`.
+- Added reference to `charlax/professional-programming`.
 - Added `json` to `data`.
 - Added `js` and `py` to `src`.
 - Moved `antipatterns`, `cheatsheets` and `training` to `docs`.

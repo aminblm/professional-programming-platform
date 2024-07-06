@@ -3,7 +3,7 @@
 
 # Professional Programming Platform 
 
-Building a comprehensive monolithic repository featuring three distinct learning platforms in Python, JavaScript, and a Python-JavaScript full-stack setup, adhering to professional programming standards to educate developers on diverse coding paradigms.
+A monolithic repository with three learning platforms: Python, JavaScript, and a Python-JavaScript full-stack, adhering to professional standards to teach diverse coding paradigms.
 
 ## Table of Contents
 

@@ -1,0 +1,28 @@
+{
+  "name": "ppp-frontend-js",
+  "version": "1.0.0",
+  "description": "A javascript implementation of the frontend of the professional programming platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aminblm/professional-programming-platform.git"
+  },
+  "keywords": [
+    "javascript",
+    "python",
+    "education",
+    "patterns",
+    "architecture",
+    "full-stack",
+    "monolith"
+  ],
+  "author": "Amin Boulouma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aminblm/professional-programming-platform/issues"
+  },
+  "homepage": "https://github.com/aminblm/professional-programming-platform#readme"
+}
