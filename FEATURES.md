@@ -98,6 +98,8 @@ The following checklist captures the essential features and initiatives outlined
     - [ ] Developping a third platform that follows the backend frontend methodology for Python and JavaScript respectively
   - [ ] Make conventions of contribution and cooperation
   - [ ] Implement the features list
+  - [ ] Focus on productive code making
+  - [ ] 
 
 
 ### Completed Features

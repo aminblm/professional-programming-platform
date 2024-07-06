@@ -8,11 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- Added FAQs
 - Added `ARCHITECTURE.md` file to document and argument architectural design decisions
 - Added `ppp-js`, `ppp-py` and `ppp-py-js` to the `src` making them three platforms to make
 - Added documentation for the AI prompts in `docs/ai-prompts/README.md`
 - Added `docs/ai-prompts`, `docs/ai-prompts/intializer.meta.txt` and `docs/ai-prompts/initializer.0.0.1-initial-setup.txt`
 - Added reference to `charlax/professional-programming`
+- 
 - Added `json` to `data`.
 - Added `js` and `py` to `src`.
 - Moved `antipatterns`, `cheatsheets` and `training` to `docs`.
@@ -27,6 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - (COMING) First set of learning materials on algorithms and data structures.
 
 ### Changed
+- Updated `LICENSE.md` to make it by Amin Boulouma since this software is separate from the resource List by [@charlax](https://github.com/charlax/professional-programming).
 - Updated `FEATURES.md` with more initial setup tasks
 - Updated `FEATURES.md` to have In Progress and Completed Tasks
 

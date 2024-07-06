@@ -1,7 +1,14 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+# Professional Programming Platform 
+
+Building a comprehensive monolithic repository featuring three distinct learning platforms in Python, JavaScript, and a Python-JavaScript full-stack setup, adhering to professional programming standards to educate developers on diverse coding paradigms.
+
 ## Table of Contents
 
+- [Professional Programming Platform](#professional-programming-platform)
+  - [Table of Contents](#table-of-contents)
 - [Professional Programming Platform - about this platform](#professional-programming-platform---about-this-platform)
   - [Principles](#principles)
   - [Contributing to this list](#contributing-to-this-list)
