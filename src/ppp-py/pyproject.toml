@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ppp-py"
+version = "0.1.0"
+description = "The professional programming platform implemented in python"
+authors = ["Amin Boulouma <amin@boulouma.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "yes"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

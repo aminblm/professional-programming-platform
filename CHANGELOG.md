@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- 
 - Added a one lines description of the repository.
 - initializing JavaScript.
 - Updating the npm global installation path to newer one to avoid EACCES Error.
@@ -21,7 +22,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added `test` folder
 - cleaned all the caches of `javascript` and `python`
 - Added `config` folders for root and rest of the platforms configs
-- 
 - Added FAQs.
 - Added `ARCHITECTURE.md` file to document and argument architectural design decisions.
 - Added `ppp-js`, `ppp-py` and `ppp-py-js` to the `src` making them three platforms to make.
